@@ -129,10 +129,10 @@ body{
 }
 .m-etc>.volume{ position: relative; }
 .m-etc #volume-btn{ cursor: pointer; }
-.m-etc #volume-btn.open{ color:var(--open_vol); }
+.m-etc #volume-btn.open{ color:#ae1100; }/*테스트 개선사항*/
 .m-etc #volume-ctrl{
 	width: 30px; height: 135px;
-	background:var(--control_vol);
+	background:rgba(255,200,100,0.639); /*테스트 개선사항*/
 	border-radius: 7px;
 	position: absolute; left: -3px; bottom: 40px;
 	display: flex; flex-flow: column wrap; align-items: center;
@@ -142,7 +142,7 @@ body{
 	width: 6px; height: 90%;
 	margin: auto;
 	border-radius: 3px;
-	background:var(--bg_vol);
+	background:#fff; /*테스트 개선사항*/
 	position: absolute; left: 50%; top: 50%;
 	transform: translate(-50%,-50%);
 	overflow: hidden;
@@ -166,8 +166,8 @@ body{
 	-webkit-appearance: none;
 	width: 6px; height: 6px;
 	border-radius: 50%;
-	background:var(--color_light);
-	box-shadow: -100vw 0 0 100vw var(--box_shadow1);
+	background:#fff; /*테스트 개선사항*/
+	box-shadow: -100vw 0 0 100vw #f10; /*테스트 개선사항*/
 }
 .m-etc .bar{
 	width: 6px; height: 0%;
